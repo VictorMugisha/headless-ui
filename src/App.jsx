@@ -1,10 +1,9 @@
 import './App.css'
+import Navbar from './Navbar'
 
 function App() {
 
-  return (
-    <h1 className="text-5xl font-bold">Hello</h1>
-  )
+  return <Navbar />
 }
 
 export default App
